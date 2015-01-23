@@ -1,0 +1,16 @@
+
+Art Assets
+
+Player Character rigged and animated
+	- hop
+	- jump
+	- duck
+	- throw boot
+
+Booby Traps
+	- flamer
+	- acid spitter
+	- “scythes” / “wires”
+	- lazer
+
+Enivronment 
