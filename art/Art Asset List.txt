@@ -6,6 +6,7 @@ Player Character rigged and animated
 	- jump
 	- duck
 	- throw boot
+	- panting recovery
 
 Booby Traps
 	- flamer
