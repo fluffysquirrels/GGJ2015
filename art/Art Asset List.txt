@@ -1,12 +1,13 @@
 
 Art Assets
 
-Player Character rigged and animated
-	- hop
-	- jump
-	- duck
-	- throw boot
-	- panting recovery
+Player Character rigged and animated √
+	- hop √
+	- jump √
+	- duck √
+	- throw boot √
+	- panting recovery √
+	- death √
 
 Booby Traps
 	- flamer
