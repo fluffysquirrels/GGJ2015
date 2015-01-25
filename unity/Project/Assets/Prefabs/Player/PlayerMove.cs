@@ -70,6 +70,12 @@ namespace Ggj.Prefabs {
             animator.SetBool (AnimatorParams.IsDucking, duckCommand);
 
             UpdatePlayerMaterial ();
+            
+            // fudge position and rotation
+            if ( IsIdle ) {
+            	transform.position = ClampPosition(transform.position);
+            	//transform.rotation = ClampRotation(transform.rotation);
+            }
 		}
 
         void RestartLevel () {
@@ -105,6 +111,18 @@ namespace Ggj.Prefabs {
                 animator.GetBool (AnimatorParams.IsDead)
                 ? DeadPlayerMaterial
                 : PlayerMaterial;
+        }
+        
+        private Vector3 ClampPosition(Vector3 pos) {
+        	pos.x = Mathf.Round(pos.x);
+        	pos.y = 0f;
+        	pos.z = Mathf.Round(pos.z);
+        	
+        	return pos;
+        }
+        
+        private Vector3 ClampRotation(Vector3 rot) {
+        	return rot;
         }
 	}
 }
