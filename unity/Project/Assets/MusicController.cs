@@ -6,6 +6,10 @@ public class MusicController : MonoBehaviour {
     public AudioSource Ramp;
     public AudioSource Loop;
 
+    public AudioSource EffectsSource;
+
+    private bool Stopped = false;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -13,7 +17,7 @@ public class MusicController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (!Loop.isPlaying && !Ramp.isPlaying) {
+        if (!Loop.isPlaying && !Ramp.isPlaying && !Stopped) {
             Loop.Play ();
         }
 	}
@@ -21,5 +25,15 @@ public class MusicController : MonoBehaviour {
     public void PlayRamp() {
         Ramp.Play ();
         Loop.Stop ();
+    }
+
+    public void StopMusic() {
+        Stopped = true;
+        Ramp.Stop ();
+        Loop.Stop ();
+    }
+
+    public void StartMusic() {
+        Stopped = false;
     }
 }

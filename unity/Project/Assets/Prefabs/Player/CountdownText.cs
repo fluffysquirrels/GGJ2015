@@ -38,5 +38,7 @@ public class CountdownText : MonoBehaviour {
         }
 
         textComp.text = "NOW!";
+        yield return new WaitForSeconds (1f);
+        textComp.enabled = false;
     }
 }

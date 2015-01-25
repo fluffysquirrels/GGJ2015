@@ -11,6 +11,8 @@ namespace Ggj.Prefabs {
 
         public CountdownText CountdownText;
 
+        public MusicController Music;
+
         private Vector3? initialPosition;
 
 		static class StateTags {
@@ -83,6 +85,7 @@ namespace Ggj.Prefabs {
         void RestartLevel () {
             animator.SetBool (AnimatorParams.IsDead, false);
             transform.position = initialPosition.Value;
+            Music.StartMusic ();
         }
 
 		Quaternion CalculateNewRotation() {
@@ -104,7 +107,8 @@ namespace Ggj.Prefabs {
         public void Kill() {
             animator.SetBool (AnimatorParams.IsDead, true);
             UpdatePlayerMaterial ();
-            audio.PlayOneShot (PlayerDies);
+            Music.StopMusic ();
+            Music.EffectsSource.PlayOneShot (PlayerDies);
         }
 
         private void UpdatePlayerMaterial() {
