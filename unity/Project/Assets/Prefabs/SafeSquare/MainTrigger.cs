@@ -9,7 +9,6 @@ namespace Ggj.Prefabs {
 		public float TimerEnd = 10f;
 		private float TimerCurrent = 0f;
 		private bool StartTimer = false;
-        public CountdownText CountdownText;
 		
 		// Use this for initialization
 		void Start () 

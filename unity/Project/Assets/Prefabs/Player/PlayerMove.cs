@@ -77,7 +77,7 @@ namespace Ggj.Prefabs {
 
             UpdatePlayerMaterial ();
             
-            // fudge position and rotation
+            // fudge position to a grid point.
             if ( IsIdle ) {
             	transform.position = ClampPosition(transform.position);
             	//transform.rotation = ClampRotation(transform.rotation);
@@ -137,7 +137,8 @@ namespace Ggj.Prefabs {
         
         public void EnterIdlePant()
         {
-        	animator.SetTrigger(AnimatorParams.ShouldIdlePant);
+        	animator.SetTrigger (AnimatorParams.ShouldIdlePant);
+            animator.ResetTrigger (AnimatorParams.ShouldHop);
         }
 	}
 }
