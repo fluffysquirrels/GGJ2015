@@ -15,15 +15,6 @@ public class CountdownText : MonoBehaviour {
 		textComp = GetComponent<Text>();
 		textComp.enabled = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-	
-	private void StartTimer() {
-	
-	}
 
     public void StartCountdown() {
         textComp.enabled = true;
@@ -41,4 +32,11 @@ public class CountdownText : MonoBehaviour {
         yield return new WaitForSeconds (1f);
         textComp.enabled = false;
     }
+
+    public void PlayerDead ()
+    {
+        textComp.text = "You are dead\n" + "Press 'R' to be butchered again";
+        textComp.enabled = true;
+    }
+
 }
