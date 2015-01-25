@@ -8,6 +8,9 @@ namespace Ggj.Player {
         public Material PlayerMaterial;
         public Material DeadPlayerMaterial;
 
+        public AudioClip PlayerDies;
+
+
 		static class StateTags {
 			public const string Idle = "Idle";
             public const string Ducking = "Ducking";
@@ -81,6 +84,7 @@ namespace Ggj.Player {
             var playerRenderer = GetComponentInChildren<Renderer> ();
             playerRenderer.material = DeadPlayerMaterial;
             animator.SetBool (AnimatorParams.IsDead, true);
+            audio.PlayOneShot (PlayerDies);
         }
 	}
 }
