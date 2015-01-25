@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
 
-namespace Ggj.Player {
+namespace Ggj.Prefabs {
 	public class PlayerMove : MonoBehaviour {
 
         public Material PlayerMaterial;
@@ -80,7 +79,6 @@ namespace Ggj.Player {
 		}
 
         public void Kill() {
-            Debug.Log ("Player killed!");
             var playerRenderer = GetComponentInChildren<Renderer> ();
             playerRenderer.material = DeadPlayerMaterial;
             animator.SetBool (AnimatorParams.IsDead, true);

@@ -1,20 +1,26 @@
 ﻿using UnityEngine;
-using System;
+using System.Collections;
+using Ggj.Player;
 
 namespace Ggj.Prefabs {
-    public class DeadlyCapsule : MonoBehaviour {
+    public class AcidBullet : MonoBehaviour {
 
-    	// Use this for initialization
+        public float Speed;
+
     	void Start () {
     	
     	}
     	
-    	// Update is called once per frame
     	void Update () {
-    	
+            var newPos = transform.position;
+            newPos.z += Time.deltaTime * Speed;
+            transform.position = newPos;
+
+            // TODO: Delete when out of bounds.
     	}
 
         void OnTriggerEnter(Collider c) {
+            Debug.Log ("AcidBullet.OnTriggerEnter");
             var playerBehaviour = c.GetComponent<PlayerMove> ();
 
             if (playerBehaviour == null) {
