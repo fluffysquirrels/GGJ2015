@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66ba571c845594853a677c79653c7c26
+guid: 6e5490bb149da4d019b201dc193a85d5
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -89,14 +89,13 @@ ModelImporter:
     7400000: Idle_Cycle
     7400002: Hop
     7400004: Jump
-    7400006: Duck
-    7400008: Throw
-    7400010: IdlePant_Into
-    7400012: IdlePant_Cycle
-    7400014: IdlePant_OutOf
-    7400016: Duck_Into
-    7400018: Duck_OutOf
-    7400020: Duck_Cycle
+    7400006: Duck_Into
+    7400008: Duck_Cycle
+    7400010: Duck_OutOf
+    7400012: Throw
+    7400014: IdlePant_Into
+    7400016: IdlePant_Cycle
+    7400018: IdlePant_OutOf
     9500000: //RootNode
     13700000: Player_MSH
   materials:
@@ -113,20 +112,7 @@ ModelImporter:
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
-    extraExposedTransformPaths:
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-    - Player_Reference/Player_Hips
-    - Player_Reference/Player_Hips/Player_LeftUpLeg
-    - Player_Reference/Player_Hips/Player_RightUpLeg
-    - Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-    - Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-    - Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-    - Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-    - Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+    extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
       name: Idle_Cycle
@@ -142,10 +128,10 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -155,7 +141,7 @@ ModelImporter:
       - path: 
         weight: 1
       - path: Player_MSH
-        weight: 1
+        weight: 0
       - path: Player_Reference
         weight: 1
       - path: Player_Reference/Player_Hips
@@ -197,7 +183,7 @@ ModelImporter:
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 1
+        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
@@ -205,7 +191,7 @@ ModelImporter:
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 1
+        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
@@ -225,7 +211,7 @@ ModelImporter:
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 1
+        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
@@ -233,7 +219,7 @@ ModelImporter:
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 1
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
@@ -298,14 +284,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
@@ -314,6 +292,18 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
         weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
@@ -322,14 +312,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
@@ -338,10 +320,14 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
         weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
         weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
@@ -356,9 +342,9 @@ ModelImporter:
       loop: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 1
+      loopBlendOrientation: 0
       loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -406,14 +392,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
@@ -422,98 +400,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
         weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Duck
-      takeName: Take 001
-      firstFrame: 91
-      lastFrame: 120
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
@@ -522,14 +408,10 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
         weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
@@ -538,14 +420,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
         weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
@@ -554,98 +428,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
         weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Throw
-      takeName: Take 001
-      firstFrame: 121
-      lastFrame: 150
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
@@ -654,342 +436,6 @@ ModelImporter:
         weight: 1
       - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
         weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: IdlePant_Into
-      takeName: Take 001
-      firstFrame: 151
-      lastFrame: 180
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: IdlePant_Cycle
-      takeName: Take 001
-      firstFrame: 181
-      lastFrame: 210
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: IdlePant_OutOf
-      takeName: Take 001
-      firstFrame: 211
-      lastFrame: 240
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
@@ -997,114 +443,6 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 91
       lastFrame: 100
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Player_MSH
-        weight: 0
-      - path: Player_Reference
-        weight: 1
-      - path: Player_Reference/Player_Hips
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
-        weight: 0
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
-        weight: 1
-      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
-        weight: 0
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Duck_OutOf
-      takeName: Take 001
-      firstFrame: 110
-      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1211,8 +549,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Duck_Cycle
       takeName: Take 001
-      firstFrame: 100
-      lastFrame: 101
+      firstFrame: 101
+      lastFrame: 102
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1223,7 +561,547 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Duck_OutOf
+      takeName: Take 001
+      firstFrame: 103
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Throw
+      takeName: Take 001
+      firstFrame: 114
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdlePant_Into
+      takeName: Take 001
+      firstFrame: 144
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdlePant_Cycle
+      takeName: Take 001
+      firstFrame: 174
+      lastFrame: 203
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdlePant_OutOf
+      takeName: Take 001
+      firstFrame: 204
+      lastFrame: 233
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
@@ -1606,7 +1484,7 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Player_ANIMS00(Clone)
+    - name: Player_ANIMS02(Clone)
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1657,7 +1535,7 @@ ModelImporter:
       scale: {x: 1.00000024, y: .99999994, z: .999999881}
       transformModified: 1
     - name: Player_RightFoot
-      position: {x: -.182923138, y: 6.46188791e-09, z: -3.55271347e-16}
+      position: {x: -.182923138, y: 6.46188791e-09, z: -3.73034925e-16}
       rotation: {x: -5.96046448e-08, y: 1.63912773e-07, z: -.376808584, w: .926291168}
       scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
       transformModified: 1
@@ -1717,7 +1595,7 @@ ModelImporter:
       scale: {x: 1.00000012, y: 1.00000036, z: 1}
       transformModified: 1
     - name: Player_LeftHandThumb4
-      position: {x: -.064641118, y: -8.33423552e-10, z: 3.36821664e-08}
+      position: {x: -.064641118, y: -8.33423719e-10, z: 3.36821664e-08}
       rotation: {x: -.685430348, y: -.173738867, z: .0228715669, w: .706736863}
       scale: {x: 1, y: .999999881, z: .999999881}
       transformModified: 1
@@ -1732,7 +1610,7 @@ ModelImporter:
       scale: {x: 1.00000012, y: .999999642, z: 1}
       transformModified: 1
     - name: Player_LeftHandRing3
-      position: {x: -.0640390366, y: -1.09195541e-09, z: 1.66583122e-10}
+      position: {x: -.0640390366, y: -1.09195541e-09, z: 1.66583192e-10}
       rotation: {x: 6.04777526e-08, y: -2.04890949e-08, z: -.0153492391, w: .999882221}
       scale: {x: .999999702, y: 1.00000012, z: 1.00000024}
       transformModified: 1
@@ -1797,7 +1675,7 @@ ModelImporter:
       scale: {x: .999999881, y: 1.00000036, z: 1.00000036}
       transformModified: 1
     - name: Player_RightHandRing4
-      position: {x: -.079660058, y: -6.4090151e-09, z: 9.2661363e-09}
+      position: {x: -.079660058, y: -6.4090151e-09, z: 9.26613719e-09}
       rotation: {x: -.0347485617, y: .706252456, z: .706252456, w: -.0347485617}
       scale: {x: .99999994, y: 1, z: 1.00000024}
       transformModified: 1
