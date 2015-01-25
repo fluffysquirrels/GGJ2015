@@ -9,6 +9,8 @@ namespace Ggj.Prefabs {
 
         public AudioClip PlayerDies;
 
+        public CountdownText CountdownText;
+
         private Vector3? initialPosition;
 
 		static class StateTags {
