@@ -13,14 +13,16 @@ namespace Ggj.Prefabs {
     	
     	void Update () {
             var newPos = transform.position;
-            newPos.z += Time.deltaTime * Speed;
+            newPos += transform.forward * Time.deltaTime * Speed;
             transform.position = newPos;
 
-            // TODO: Delete when out of bounds.
+            var isOutOfBounds = newPos.magnitude > 100;
+            if (isOutOfBounds) {
+                Object.Destroy (this.gameObject);
+            }
     	}
 
         void OnTriggerEnter(Collider c) {
-            Debug.Log ("AcidBullet.OnTriggerEnter");
             var playerBehaviour = c.GetComponent<PlayerMove> ();
 
             if (playerBehaviour == null) {
@@ -29,6 +31,7 @@ namespace Ggj.Prefabs {
             }
 
             playerBehaviour.Kill ();
+            Object.Destroy (this.gameObject);
         }
     }
 }
