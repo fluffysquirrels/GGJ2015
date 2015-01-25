@@ -5,10 +5,11 @@ namespace Ggj.Prefabs {
     public class AcidGun : MonoBehaviour {
 
         public float FireIntervalSeconds;
+        public float InitialFireDelaySeconds;
         public GameObject BulletPrefab;
 
     	void Start () {
-            this.InvokeRepeating ("OnFireTimer", FireIntervalSeconds, FireIntervalSeconds);
+            this.InvokeRepeating ("OnFireTimer", InitialFireDelaySeconds, FireIntervalSeconds);
     	}
     	
         public void OnFireTimer() {
