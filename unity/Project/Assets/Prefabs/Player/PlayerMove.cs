@@ -9,6 +9,7 @@ namespace Ggj.Prefabs {
 
         public AudioClip PlayerDies;
 
+        private Vector3? initialPosition;
 
 		static class StateTags {
 			public const string Idle = "Idle";
@@ -40,27 +41,41 @@ namespace Ggj.Prefabs {
             }
         }
 
+        bool NoMoveCommand {
+            get {
+                float moveHorizontal = Input.GetAxis ("Horizontal");
+                float moveVertical = Input.GetAxis ("Vertical");
+
+                return
+                    Math.Abs (moveVertical) < 0.01f &&
+                    Math.Abs (moveHorizontal) < 0.01f;
+            }
+        }
+
 		void Update () {
-            float moveHorizontal = Input.GetAxis ("Horizontal");
-			float moveVertical = Input.GetAxis ("Vertical");
+            if (!initialPosition.HasValue) {
+                initialPosition = transform.position;
+            }
 
-            bool noMoveControl =
-				Math.Abs (moveVertical) < 0.01f &&
-				Math.Abs (moveHorizontal) < 0.01f;
-
-            bool duckControl = Input.GetAxis ("Duck") > 0.01f;
-
-            animator.SetBool (AnimatorParams.IsDucking, duckControl);
-
-            if (IsIdle && !noMoveControl) {
+            // Process commands
+            if (Input.GetAxis ("Restart") > 0.01f) {
+                RestartLevel ();
+            } else if (IsIdle && !NoMoveCommand) {
                 transform.rotation = CalculateNewRotation ();
                 animator.SetTrigger (AnimatorParams.ShouldHop);
-            } else if (IsIdle && duckControl) {
-                animator.SetBool (AnimatorParams.IsDucking, true);
-            } else if (IsDucking && !duckControl) {
-                animator.SetBool (AnimatorParams.IsDucking, false);
             }
+
+            // Update state
+            bool duckCommand = Input.GetAxis ("Duck") > 0.01f;
+            animator.SetBool (AnimatorParams.IsDucking, duckCommand);
+
+            UpdatePlayerMaterial ();
 		}
+
+        void RestartLevel () {
+            animator.SetBool (AnimatorParams.IsDead, false);
+            transform.position = initialPosition.Value;
+        }
 
 		Quaternion CalculateNewRotation() {
 			float moveHorizontal = Input.GetAxis ("Horizontal");
@@ -79,10 +94,17 @@ namespace Ggj.Prefabs {
 		}
 
         public void Kill() {
-            var playerRenderer = GetComponentInChildren<Renderer> ();
-            playerRenderer.material = DeadPlayerMaterial;
             animator.SetBool (AnimatorParams.IsDead, true);
+            UpdatePlayerMaterial ();
             audio.PlayOneShot (PlayerDies);
+        }
+
+        private void UpdatePlayerMaterial() {
+            var playerRenderer = GetComponentInChildren<Renderer> ();
+            playerRenderer.material =
+                animator.GetBool (AnimatorParams.IsDead)
+                ? DeadPlayerMaterial
+                : PlayerMaterial;
         }
 	}
 }
