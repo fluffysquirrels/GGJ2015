@@ -12,4 +12,12 @@ public class MainMenuHandler : MonoBehaviour {
 	{
 		Application.Quit();
 	}
+	
+	public void Update()
+	{
+		if ( Input.GetKeyDown(KeyCode.Escape) )
+		{
+			LoadLevel("MainMenu");
+		}
+	}
 }
