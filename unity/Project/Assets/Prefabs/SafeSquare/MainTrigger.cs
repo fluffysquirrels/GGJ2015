@@ -40,6 +40,7 @@ namespace Ggj.Prefabs {
 				return;
 			}
 			LetsStartTimer();
+			playerBehaviour.EnterIdlePant();
 		}
 		
 		void LetsStartTimer()

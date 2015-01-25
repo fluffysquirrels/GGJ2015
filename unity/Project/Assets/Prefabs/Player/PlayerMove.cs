@@ -124,5 +124,10 @@ namespace Ggj.Prefabs {
         private Vector3 ClampRotation(Vector3 rot) {
         	return rot;
         }
+        
+        public void EnterIdlePant()
+        {
+        	animator.SetTrigger(AnimatorParams.ShouldIdlePant);
+        }
 	}
 }
