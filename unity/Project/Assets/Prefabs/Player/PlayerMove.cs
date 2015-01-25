@@ -62,7 +62,9 @@ namespace Ggj.Prefabs {
             }
 
             // Process commands
-            if (Input.GetAxis ("Restart") > 0.01f) {
+            if (Input.GetKeyDown(KeyCode.Escape)) {
+                Application.LoadLevel("MainMenu");
+            } else if (Input.GetAxis ("Restart") > 0.01f) {
                 RestartLevel ();
             } else if (IsIdle && !NoMoveCommand) {
                 transform.rotation = CalculateNewRotation ();
