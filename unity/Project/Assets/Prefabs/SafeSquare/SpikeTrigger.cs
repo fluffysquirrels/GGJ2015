@@ -3,7 +3,7 @@ using System.Collections;
 using Ggj.Player;
 
 namespace Ggj.Prefabs {
-	public class MainTrigger : MonoBehaviour {
+	public class SpikeTrigger : MonoBehaviour {
 	
 		private Animator anim;
 		public float TimerEnd = 10f;
@@ -40,7 +40,6 @@ namespace Ggj.Prefabs {
 				return;
 			}
 			LetsStartTimer();
-			playerBehaviour.EnterIdlePant();
 		}
 		
 		void LetsStartTimer()
