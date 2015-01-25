@@ -5,6 +5,9 @@ using System;
 namespace Ggj.Player {
 	public class PlayerMove : MonoBehaviour {
 
+        public Material PlayerMaterial;
+        public Material DeadPlayerMaterial;
+
 		static class StateTags {
 			public const string Idle = "Idle";
             public const string Ducking = "Ducking";
@@ -14,6 +17,7 @@ namespace Ggj.Player {
 	        public const string ShouldHop = "ShouldHop";
             public const string ShouldIdlePant = "ShouldIdlePant";
             public const string IsDucking = "IsDucking";
+            public const string IsDead = "IsDead";
 		}
 
         Animator animator;
@@ -54,9 +58,6 @@ namespace Ggj.Player {
             } else if (IsDucking && !duckControl) {
                 animator.SetBool (AnimatorParams.IsDucking, false);
             }
-
-			
-
 		}
 
 		Quaternion CalculateNewRotation() {
@@ -74,5 +75,12 @@ namespace Ggj.Player {
 			rotation.eulerAngles = angles;
 			return rotation;
 		}
+
+        public void Kill() {
+            Debug.Log ("Player killed!");
+            var playerRenderer = GetComponentInChildren<Renderer> ();
+            playerRenderer.material = DeadPlayerMaterial;
+            animator.SetBool (AnimatorParams.IsDead, true);
+        }
 	}
 }
