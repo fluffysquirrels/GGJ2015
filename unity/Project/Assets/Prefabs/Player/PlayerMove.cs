@@ -85,9 +85,7 @@ namespace Ggj.Prefabs {
 		}
 
         void RestartLevel () {
-            animator.SetBool (AnimatorParams.IsDead, false);
-            transform.position = initialPosition.Value;
-            Music.StartMusic ();
+            Application.LoadLevel (Application.loadedLevel);
         }
 
 		Quaternion CalculateNewRotation() {
@@ -107,6 +105,10 @@ namespace Ggj.Prefabs {
 		}
 
         public void Kill() {
+            if (animator.GetBool (AnimatorParams.IsDead)) {
+                // Don't die twice (we're not Bond, James Bond).
+                return;
+            }
             animator.SetBool (AnimatorParams.IsDead, true);
             UpdatePlayerMaterial ();
             Music.StopMusic ();
