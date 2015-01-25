@@ -24,3 +24,5 @@ sysinfo.txt
 
 # Emacs backups
 *~
+
+__MACOSX*
