@@ -17,6 +17,7 @@ namespace Ggj.Prefabs {
 
 		static class StateTags {
 			public const string Idle = "Idle";
+            public const string IdlePant = "IdlePant";
             public const string Ducking = "Ducking";
 		}
 
@@ -36,6 +37,12 @@ namespace Ggj.Prefabs {
         bool IsIdle {
             get {
                 return animator.GetCurrentAnimatorStateInfo (0).IsTag (StateTags.Idle);
+            }
+        }
+
+        bool IsIdlePant {
+            get {
+                return animator.GetCurrentAnimatorStateInfo (0).IsTag (StateTags.IdlePant);
             }
         }
 
@@ -76,6 +83,9 @@ namespace Ggj.Prefabs {
             animator.SetBool (AnimatorParams.IsDucking, duckCommand);
 
             UpdatePlayerMaterial ();
+            if (IsIdlePant) {
+                animator.ResetTrigger (AnimatorParams.ShouldHop);
+            }
             
             // fudge position to a grid point.
             if ( IsIdle ) {
