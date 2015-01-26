@@ -27,6 +27,7 @@ GameObject:
   - 4: {fileID: 484290}
   - 114: {fileID: 11474878}
   - 136: {fileID: 13601184}
+  - 114: {fileID: 11420520}
   m_Layer: 0
   m_Name: Acid bullet
   m_TagString: Untagged
@@ -86,6 +87,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174878}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11420520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 592443acdbab7c64686bd493236ecab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeleteThisOnCollisionWithPlayer: 1
 --- !u!114 &11474878
 MonoBehaviour:
   m_ObjectHideFlags: 1
