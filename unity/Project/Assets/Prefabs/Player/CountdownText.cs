@@ -6,9 +6,7 @@ public class CountdownText : MonoBehaviour {
 
     public MusicController Music;
     private Text textComp;
-	private float TimerEnd = 8f;
-	private float Timer = 0f;
-
+	
 	// Use this for initialization
 	void Awake () 
 	{
