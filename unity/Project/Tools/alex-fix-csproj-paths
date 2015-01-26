@@ -1,2 +1,0 @@
-#!/usr/bin/env zsh
-sed -i~~ -re 's/C:\/Program Files\/Unity\/([^/<]+\/)+/ThirdPartyLibs\//' $(dirname $0:A)/../Assembly-CSharp*.csproj

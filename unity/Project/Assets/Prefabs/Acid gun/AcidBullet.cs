@@ -7,10 +7,6 @@ namespace Ggj.Prefabs {
 
         public float Speed;
 
-    	void Start () {
-    	
-    	}
-    	
     	void Update () {
             var newPos = transform.position;
             newPos += transform.forward * Time.deltaTime * Speed;
@@ -21,17 +17,5 @@ namespace Ggj.Prefabs {
                 Object.Destroy (this.gameObject);
             }
     	}
-
-        void OnTriggerEnter(Collider c) {
-            var playerBehaviour = c.GetComponent<PlayerMove> ();
-
-            if (playerBehaviour == null) {
-                // Only interested in colliding with player.
-                return;
-            }
-
-            playerBehaviour.Kill ();
-            Object.Destroy (this.gameObject);
-        }
     }
 }
