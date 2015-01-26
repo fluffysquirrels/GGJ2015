@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+projects=`echo $(dirname $0)/../unity/Project/Assembly-CSharp*.csproj(:a)`
+echo Projects: $projects
+echo $projects | xargs sed -i~~ -re 's/C:\/Program Files\/Unity\/([^/<]+\/)+/ThirdPartyLibs\//'
