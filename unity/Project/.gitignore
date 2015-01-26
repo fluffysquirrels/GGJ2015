@@ -1,4 +1,4 @@
-# Unity .gitignore Github template
+## From Unity .gitignore Github template
 # From: https://github.com/github/gitignore/blob/master/Unity.gitignore
 [Ll]ibrary/
 [Tt]emp/
@@ -22,7 +22,4 @@
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
-# Emacs backups
-*~
-
-__MACOSX*
+## end of Unity .gitignore Github template
