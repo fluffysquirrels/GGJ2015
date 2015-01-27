@@ -34,14 +34,17 @@ public class PieChartCountdownMesh : MonoBehaviour {
         float scaleFactor = 1 / Mathf.Max(Mathf.Abs(circlePoint.x), Mathf.Abs(circlePoint.y));
         var squarePoint = circlePoint * scaleFactor;
 
+        float sideLength = 1;
+        float halfLength = sideLength / 2;
+
         mesh.vertices = new [] {
-            new Vector3( 0, 0, 0),    // 0
-            new Vector3( 1, 1, 0),    // 1
-            new Vector3( 1,-1, 0),    // 2
-            new Vector3(-1,-1, 0),    // 3
-            new Vector3(-1, 1, 0),    // 4
-            new Vector3( 0, 1, 0),    // 5
-            squarePoint,              // 6
+            halfLength * new Vector3( 0, 0, 0),    // 0
+            halfLength * new Vector3( 1, 1, 0),    // 1
+            halfLength * new Vector3( 1,-1, 0),    // 2
+            halfLength * new Vector3(-1,-1, 0),    // 3
+            halfLength * new Vector3(-1, 1, 0),    // 4
+            halfLength * new Vector3( 0, 1, 0),    // 5
+            halfLength * squarePoint,              // 6
         };
 
         var triangles = new List<int> ();

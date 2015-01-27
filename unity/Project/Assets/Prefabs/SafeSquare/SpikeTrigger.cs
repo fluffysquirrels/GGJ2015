@@ -5,30 +5,44 @@ using Ggj.Player;
 namespace Ggj.Prefabs {
 	public class SpikeTrigger : MonoBehaviour {
 	
-		private Animator anim;
-		public float TimerEnd = 10f;
+		public float AttackDelaySeconds;
+
 		private float TimerCurrent = 0f;
-		private bool StartTimer = false;
+		private bool TimerRunning = false;
+
+        private PieChartCountdownMesh countdown;
+        private Animator anim;
 		
-		// Use this for initialization
-		void Start () 
-		{
+        private static class AnimParams {
+            public const string ShouldAttack = "ShouldAttack";
+        }
+
+        private static class StateTags {
+            public const string Idle = "Idle";
+            public const string Attack = "Attack";
+        }
+
+		void Start () {
 			anim = GetComponentInChildren<Animator>();
+            countdown = GetComponentInChildren<PieChartCountdownMesh> ();
+            countdown.DeltaPerSecond = 1 / AttackDelaySeconds;
+            countdown.enabled = false;
 		}
 		
-		// Update is called once per frame
-		void Update () 
-		{
-			if ( StartTimer )
+		void Update () {
+			if ( TimerRunning )
 			{
 				TimerCurrent += Time.deltaTime;
 			}
 		
-			if ( TimerCurrent >= TimerEnd )
+			if ( TimerCurrent >= AttackDelaySeconds )
 			{
-				anim.SetTrigger("ShouldAttack");
+                anim.SetTrigger(AnimParams.ShouldAttack);
+
 				TimerCurrent = 0f;
-				StartTimer = false;
+				TimerRunning = false;
+                countdown.enabled = false;
+                countdown.renderer.enabled = false;
 			}
 		}
 		
@@ -39,12 +53,23 @@ namespace Ggj.Prefabs {
 				// Only interested in colliding with player.
 				return;
 			}
-			LetsStartTimer();
+            if (!TimerRunning && anim.GetCurrentAnimatorStateInfo(0).IsTag("Idle")) {
+                StartAttackTimer ();
+            }
 		}
 		
-		void LetsStartTimer()
-		{
-			StartTimer = true;
+		void StartAttackTimer() {
+            countdown.enabled = true;
+            countdown.renderer.enabled = true;
+            countdown.Value = 0;
+            TimerRunning = true;
 		}
+
+        void StopAttackTimer() {
+            TimerCurrent = 0f;
+            TimerRunning = false;
+            countdown.enabled = false;
+            countdown.renderer.enabled = false;
+        }
 	}
 }
