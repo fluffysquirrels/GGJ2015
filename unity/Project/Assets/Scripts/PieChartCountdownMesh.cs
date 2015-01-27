@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+[RequireComponent (typeof(MeshFilter))]
+[RequireComponent (typeof(MeshRenderer))]
 public class PieChartCountdownMesh : MonoBehaviour {
 
     public float Value;
