@@ -7,7 +7,6 @@ namespace Ggj.Prefabs {
 	
 		public float AttackDelaySeconds;
 
-		private float TimerCurrent = 0f;
 		private bool TimerRunning = false;
 
         private PieChartCountdownMesh countdown;
@@ -29,23 +28,6 @@ namespace Ggj.Prefabs {
             countdown.enabled = false;
 		}
 		
-		void Update () {
-			if ( TimerRunning )
-			{
-				TimerCurrent += Time.deltaTime;
-			}
-		
-			if ( TimerCurrent >= AttackDelaySeconds )
-			{
-                anim.SetTrigger(AnimParams.ShouldAttack);
-
-				TimerCurrent = 0f;
-				TimerRunning = false;
-                countdown.enabled = false;
-                countdown.renderer.enabled = false;
-			}
-		}
-		
 		void OnTriggerEnter(Collider c) {
 			var playerBehaviour = c.GetComponent<PlayerMove> ();
 			
@@ -63,10 +45,15 @@ namespace Ggj.Prefabs {
             countdown.renderer.enabled = true;
             countdown.Value = 0;
             TimerRunning = true;
+            this.Invoke ("AttackTimerDone", this.AttackDelaySeconds);
 		}
 
+        void AttackTimerDone() {
+            anim.SetTrigger(AnimParams.ShouldAttack);
+            StopAttackTimer ();
+        }
+
         void StopAttackTimer() {
-            TimerCurrent = 0f;
             TimerRunning = false;
             countdown.enabled = false;
             countdown.renderer.enabled = false;
