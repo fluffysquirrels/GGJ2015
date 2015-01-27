@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SafeSquareController
+  m_Name: SpikeTrapController
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: ShouldAttack
@@ -26,7 +26,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &110136780
+--- !u!1101 &110100000
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
@@ -34,8 +34,8 @@ Transition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110294654}
-  m_TransitionDuration: 0
+  m_DstState: {fileID: 110296060}
+  m_TransitionDuration: 60.0000038
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
@@ -61,18 +61,18 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: Idle
---- !u!1102 &110294654
+--- !u!1102 &110296060
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SafeSquare_AttackAndHold
+  m_Name: SpikeTrap_Attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400004, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
+  - {fileID: 7400002, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 312, y: 96, z: 0}
+  m_Position: {x: 324, y: 72, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -86,17 +86,17 @@ StateMachine:
   m_DefaultState: {fileID: 110200000}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110294654}
+  - {fileID: 110296060}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110200000}
-      second:
-      - {fileID: 110136780}
-    data:
       first: {fileID: 0}
       second: []
+    data:
+      first: {fileID: 110200000}
+      second:
+      - {fileID: 110100000}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

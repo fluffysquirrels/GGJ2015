@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class CountdownText : MonoBehaviour {
 
     public MusicController Music;
+    public int CountDownTime = 10;
     private Text textComp;
 	
 	// Use this for initialization
@@ -21,7 +22,7 @@ public class CountdownText : MonoBehaviour {
     }
 
     public IEnumerator CountdownCoroutine() {
-        for (int count = 10; count >= 1; count--) {
+        for (int count = CountDownTime; count >= 1; count--) {
             textComp.text = count.ToString ();
             yield return new WaitForSeconds (1f);
         }
