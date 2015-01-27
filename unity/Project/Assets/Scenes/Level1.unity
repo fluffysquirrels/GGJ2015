@@ -987,7 +987,7 @@ GameObject:
   - 81: {fileID: 61331696}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21026,7 +21026,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: d78e4ffaee94c4412852e849ac80a29c, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d78e4ffaee94c4412852e849ac80a29c, type: 2}
       propertyPath: m_ApplyRootMotion
