@@ -9,15 +9,16 @@ namespace Ggj.Prefabs {
         public GameObject BulletPrefab;
 
     	void Start () {
-            this.InvokeRepeating ("OnFireTimer", InitialFireDelaySeconds, FireIntervalSeconds);
+            Invoke ("OnFirstShot", InitialFireDelaySeconds);
     	}
     	
+        public void OnFirstShot() {
+            OnFireTimer ();
+            InvokeRepeating ("OnFireTimer", FireIntervalSeconds, FireIntervalSeconds);
+        }
+
         public void OnFireTimer() {
             Instantiate (BulletPrefab, transform.position, transform.rotation);
         }
-
-    	void Update () {
-    	
-    	}
     }
 }
