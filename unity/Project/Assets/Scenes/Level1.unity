@@ -368,6 +368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &15197807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -852,6 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &27639710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1778,6 +1780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &76279190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1853,6 +1856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &82059262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3024,6 +3028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &134649919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4251,6 +4256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &217423129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4533,6 +4539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &230758208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5250,6 +5257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &286310266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5676,6 +5684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &315141704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7592,6 +7601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &410418175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7844,6 +7854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &419801363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8340,6 +8351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &441481786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8474,6 +8486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &443386364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8708,6 +8721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &461598784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8810,6 +8824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &466934608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9501,6 +9516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &512101516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9576,6 +9592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &518920563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9651,6 +9668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &524167404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9779,6 +9797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &531071225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10446,6 +10465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &558181144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11317,6 +11337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &589067207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12460,6 +12481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &639393251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13253,6 +13275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &702536810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13908,6 +13931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &740611370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14078,6 +14102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &749352702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14415,6 +14440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &759597792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14976,6 +15002,80 @@ SkinnedMeshRenderer:
     m_Center: {x: .0419507325, y: .00748573244, z: -.0756809115}
     m_Extent: {x: .631225586, y: .351269901, z: .832119405}
   m_DirtyAABB: 0
+--- !u!1 &780781498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 842219808}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 780781499}
+  - 33: {fileID: 780781502}
+  - 23: {fileID: 780781501}
+  - 114: {fileID: 780781500}
+  m_Layer: 0
+  m_Name: Countdown icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780781499
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 842219808}
+  m_GameObject: {fileID: 780781498}
+  m_LocalRotation: {x: .707106829, y: 2.95693103e-15, z: -2.95693103e-15, w: .707106829}
+  m_LocalPosition: {x: -0, y: .0700000003, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: .086668998}
+  m_Children: []
+  m_Father: {fileID: 1650707104}
+  m_RootOrder: 3
+--- !u!114 &780781500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11442630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 842219808}
+  m_GameObject: {fileID: 780781498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242fec7a3c9978444a82a2f68fc63526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 0
+  DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
+--- !u!23 &780781501
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 842219808}
+  m_GameObject: {fileID: 780781498}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: aa22d1a42fb3a1f4c98645e7729bc728, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &780781502
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 842219808}
+  m_GameObject: {fileID: 780781498}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &783540339
 GameObject:
   m_ObjectHideFlags: 0
@@ -15065,6 +15165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &789787017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15613,6 +15714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &810636853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16959,6 +17061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &874417376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17051,6 +17154,80 @@ Prefab:
   m_RootGameObject: {fileID: 1638325187}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &880469721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 1804137792}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 880469722}
+  - 33: {fileID: 880469725}
+  - 23: {fileID: 880469724}
+  - 114: {fileID: 880469723}
+  m_Layer: 0
+  m_Name: Countdown icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &880469722
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 1804137792}
+  m_GameObject: {fileID: 880469721}
+  m_LocalRotation: {x: .707106829, y: 2.95693103e-15, z: -2.95693103e-15, w: .707106829}
+  m_LocalPosition: {x: -0, y: .0700000003, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: .086668998}
+  m_Children: []
+  m_Father: {fileID: 1236671511}
+  m_RootOrder: 3
+--- !u!114 &880469723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11442630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804137792}
+  m_GameObject: {fileID: 880469721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242fec7a3c9978444a82a2f68fc63526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 0
+  DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
+--- !u!23 &880469724
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804137792}
+  m_GameObject: {fileID: 880469721}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: aa22d1a42fb3a1f4c98645e7729bc728, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &880469725
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804137792}
+  m_GameObject: {fileID: 880469721}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &882815122
 Prefab:
   m_ObjectHideFlags: 0
@@ -17837,6 +18014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &913793059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18540,6 +18718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &973702379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19237,6 +19416,80 @@ Transform:
   - {fileID: 636800968}
   m_Father: {fileID: 1298761542}
   m_RootOrder: 0
+--- !u!1 &1017960056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 1500081878}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1017960057}
+  - 33: {fileID: 1017960060}
+  - 23: {fileID: 1017960059}
+  - 114: {fileID: 1017960058}
+  m_Layer: 0
+  m_Name: Countdown icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017960057
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442630, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_PrefabInternal: {fileID: 1500081878}
+  m_GameObject: {fileID: 1017960056}
+  m_LocalRotation: {x: .707106829, y: 2.95693103e-15, z: -2.95693103e-15, w: .707106829}
+  m_LocalPosition: {x: -0, y: .0700000003, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: .086668998}
+  m_Children: []
+  m_Father: {fileID: 1421364826}
+  m_RootOrder: 3
+--- !u!114 &1017960058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11442630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500081878}
+  m_GameObject: {fileID: 1017960056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242fec7a3c9978444a82a2f68fc63526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 0
+  DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
+--- !u!23 &1017960059
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500081878}
+  m_GameObject: {fileID: 1017960056}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: aa22d1a42fb3a1f4c98645e7729bc728, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1017960060
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3342630, guid: 9eb7b33693faf4496a9d61fda2044cd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500081878}
+  m_GameObject: {fileID: 1017960056}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1028438699
 GameObject:
   m_ObjectHideFlags: 0
@@ -19283,6 +19536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1028438702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19502,6 +19756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1043142473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19562,6 +19817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1053598659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19751,6 +20007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1056991587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19980,6 +20237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1062216541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20400,6 +20658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1079895577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20619,6 +20878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1090444524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20940,6 +21200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1107471741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21151,6 +21412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1114759280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21297,6 +21559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1116730166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22555,6 +22818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1202174686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23063,6 +23327,7 @@ Transform:
   - {fileID: 323235924}
   - {fileID: 821328860}
   - {fileID: 848910988}
+  - {fileID: 880469722}
   m_Father: {fileID: 378671485}
   m_RootOrder: 4
 --- !u!114 &1236671512
@@ -23077,7 +23342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 10
+  AttackDelaySeconds: 11
+  HoldAttack: 1
 --- !u!65 &1236671513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23101,7 +23367,7 @@ Animator:
   m_GameObject: {fileID: 1236671510}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 13b0007c09f8c47f78595cbfa4056a41, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8e0377a676a4749bfb3817875021f975, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -23222,6 +23488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1240658738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23312,6 +23579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1244792019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23547,6 +23815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1248969771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24833,6 +25102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1327518653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25542,6 +25812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1363326825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27183,6 +27454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1405599974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27321,6 +27593,7 @@ Transform:
   - {fileID: 179025468}
   - {fileID: 67662720}
   - {fileID: 210859985}
+  - {fileID: 1017960057}
   m_Father: {fileID: 378671485}
   m_RootOrder: 3
 --- !u!95 &1421364827
@@ -27333,7 +27606,7 @@ Animator:
   m_GameObject: {fileID: 1421364825}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 13b0007c09f8c47f78595cbfa4056a41, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8e0377a676a4749bfb3817875021f975, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -27374,7 +27647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 10
+  AttackDelaySeconds: 11
+  HoldAttack: 1
 --- !u!65 &1421364831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27631,6 +27905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1458811146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27721,6 +27996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1462103674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28168,6 +28444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1485936695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29040,6 +29317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1537174660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29782,6 +30060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1577348295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30298,6 +30577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1593409008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30878,6 +31158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1623807742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31532,6 +31813,7 @@ Transform:
   - {fileID: 247611275}
   - {fileID: 950108297}
   - {fileID: 422243147}
+  - {fileID: 780781499}
   m_Father: {fileID: 378671485}
   m_RootOrder: 140
 --- !u!114 &1650707105
@@ -31546,7 +31828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 10
+  AttackDelaySeconds: 11
+  HoldAttack: 1
 --- !u!65 &1650707106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31570,7 +31853,7 @@ Animator:
   m_GameObject: {fileID: 1650707103}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 13b0007c09f8c47f78595cbfa4056a41, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8e0377a676a4749bfb3817875021f975, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -31779,6 +32062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1661886975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32871,6 +33155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1734208754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33875,6 +34160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1810056565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34008,6 +34294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1822198953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34635,6 +34922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1855973372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35751,6 +36039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1921171633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35900,6 +36189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1940763291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36139,6 +36429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &1960740958
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37435,6 +37726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2018937898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37510,6 +37802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2022133280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37727,6 +38020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2040478867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37933,6 +38227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2045470180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38356,6 +38651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2068470596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39104,6 +39400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2103914007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39275,6 +39572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &2111145529
 BoxCollider:
   m_ObjectHideFlags: 0
