@@ -30,6 +30,7 @@ GameObject:
   - 114: {fileID: 11420520}
   - 114: {fileID: 11427174}
   - 54: {fileID: 5492670}
+  - 122: {fileID: 12200000}
   m_Layer: 0
   m_Name: Acid bullet
   m_TagString: Untagged
@@ -56,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .720000029, z: -4.92999983}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 474878}
@@ -139,6 +140,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
+--- !u!122 &12200000
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184290}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4279041792
+  m_Size: .5
 --- !u!136 &13601184
 CapsuleCollider:
   m_ObjectHideFlags: 1
