@@ -234,6 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &11919135
 Renderer:
   m_ObjectHideFlags: 0
@@ -455,6 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &17645272
 Renderer:
   m_ObjectHideFlags: 0
@@ -700,6 +702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &24511193
 Renderer:
   m_ObjectHideFlags: 0
@@ -773,6 +776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &26183043
 Renderer:
   m_ObjectHideFlags: 0
@@ -1698,6 +1702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &70430844
 Renderer:
   m_ObjectHideFlags: 0
@@ -3238,7 +3243,7 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Mat: {fileID: 0}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -3682,6 +3687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &169241632
 Renderer:
   m_ObjectHideFlags: 0
@@ -3755,6 +3761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &177203464
 Renderer:
   m_ObjectHideFlags: 0
@@ -4555,62 +4562,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1001 &232514536
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 378671485}
-    m_Modifications:
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -1.62920685e-07
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_RootGameObject: {fileID: 1236671510}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &232747197
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,6 +4692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &241421145
 Renderer:
   m_ObjectHideFlags: 0
@@ -5805,7 +5757,7 @@ Prefab:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 323235924}
@@ -5823,7 +5775,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 323235921}
   m_Enabled: 1
   m_CastShadows: 1
@@ -5844,14 +5796,14 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300002, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 323235921}
   m_Mesh: {fileID: 4300000, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
 --- !u!4 &323235924
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 323235921}
   m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -6305,6 +6257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &340201518
 Renderer:
   m_ObjectHideFlags: 0
@@ -7104,6 +7057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &367038686
 Renderer:
   m_ObjectHideFlags: 0
@@ -7177,6 +7131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &376395244
 Renderer:
   m_ObjectHideFlags: 0
@@ -8137,6 +8092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &423833572
 Renderer:
   m_ObjectHideFlags: 0
@@ -8457,6 +8413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &441888870
 Renderer:
   m_ObjectHideFlags: 0
@@ -9086,6 +9043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &492052790
 Renderer:
   m_ObjectHideFlags: 0
@@ -9227,6 +9185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &502683369
 Renderer:
   m_ObjectHideFlags: 0
@@ -10560,6 +10519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &559967574
 Renderer:
   m_ObjectHideFlags: 0
@@ -10749,6 +10709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &566251427
 Renderer:
   m_ObjectHideFlags: 0
@@ -10966,6 +10927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &577302554
 Renderer:
   m_ObjectHideFlags: 0
@@ -11211,6 +11173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &585821978
 Renderer:
   m_ObjectHideFlags: 0
@@ -11972,6 +11935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &606407974
 Renderer:
   m_ObjectHideFlags: 0
@@ -13213,6 +13177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &696014463
 Renderer:
   m_ObjectHideFlags: 0
@@ -13695,6 +13660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &729232950
 Renderer:
   m_ObjectHideFlags: 0
@@ -14522,6 +14488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &764595853
 Renderer:
   m_ObjectHideFlags: 0
@@ -14883,6 +14850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &775652826
 Renderer:
   m_ObjectHideFlags: 0
@@ -15569,6 +15537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &808940814
 Renderer:
   m_ObjectHideFlags: 0
@@ -15935,7 +15904,7 @@ MeshFilter:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 821328860}
@@ -15954,7 +15923,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 821328859}
   m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -.652294457, z: 0}
@@ -15967,7 +15936,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 821328859}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15980,7 +15949,7 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 821328859}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -15993,7 +15962,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 821328859}
   m_Enabled: 1
   m_CastShadows: 1
@@ -16014,7 +15983,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 821328859}
   m_Mesh: {fileID: 4300002, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
 --- !u!1 &824500437
@@ -16061,6 +16030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &824500440
 Renderer:
   m_ObjectHideFlags: 0
@@ -16490,6 +16460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &845360880
 Renderer:
   m_ObjectHideFlags: 0
@@ -16523,7 +16494,7 @@ MeshFilter:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100006, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 848910988}
@@ -16539,7 +16510,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400006, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 848910987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: -0}
@@ -16552,7 +16523,7 @@ Light:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 10800000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 848910987}
   m_Enabled: 1
   serializedVersion: 3
@@ -17790,6 +17761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &909721861
 Renderer:
   m_ObjectHideFlags: 0
@@ -18699,6 +18671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &980349244
 Renderer:
   m_ObjectHideFlags: 0
@@ -18898,6 +18871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &986906024
 Renderer:
   m_ObjectHideFlags: 0
@@ -19029,6 +19003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &994953989
 Renderer:
   m_ObjectHideFlags: 0
@@ -19102,6 +19077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &995967226
 Renderer:
   m_ObjectHideFlags: 0
@@ -19203,6 +19179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &998091001
 Renderer:
   m_ObjectHideFlags: 0
@@ -20078,7 +20055,6 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:
@@ -20097,6 +20073,8 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!1 &1066652570
@@ -20287,6 +20265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1073913334
 Renderer:
   m_ObjectHideFlags: 0
@@ -20360,6 +20339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1075203045
 Renderer:
   m_ObjectHideFlags: 0
@@ -20727,6 +20707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1091699864
 Renderer:
   m_ObjectHideFlags: 0
@@ -22296,6 +22277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1185125930
 Renderer:
   m_ObjectHideFlags: 0
@@ -22800,6 +22782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1205459363
 Renderer:
   m_ObjectHideFlags: 0
@@ -23053,7 +23036,7 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1236671511}
@@ -23071,7 +23054,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 1236671510}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: -1.62920685e-07}
   m_LocalPosition: {x: -0, y: 0, z: 1}
@@ -23087,20 +23070,20 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 1236671510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a765d72f65c4ffa9bdeabcc7cb3d30, type: 3}
+  m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 11
+  TimerEnd: 10
 --- !u!65 &1236671513
 BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500002, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 1236671510}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -23114,7 +23097,7 @@ Animator:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9500000, guid: 9eb7b33693faf4496a9d61fda2044cd8,
     type: 2}
-  m_PrefabInternal: {fileID: 232514536}
+  m_PrefabInternal: {fileID: 1804137792}
   m_GameObject: {fileID: 1236671510}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 4849bd87f16cc4920a68ccb47e72360f, type: 3}
@@ -23488,6 +23471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1246962277
 Renderer:
   m_ObjectHideFlags: 0
@@ -23636,6 +23620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1260552057
 Renderer:
   m_ObjectHideFlags: 0
@@ -24024,6 +24009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1279663901
 Renderer:
   m_ObjectHideFlags: 0
@@ -24183,6 +24169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1287023097
 Renderer:
   m_ObjectHideFlags: 0
@@ -24696,6 +24683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1315914075
 Renderer:
   m_ObjectHideFlags: 0
@@ -24769,6 +24757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1316903580
 Renderer:
   m_ObjectHideFlags: 0
@@ -25332,6 +25321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1355933623
 Renderer:
   m_ObjectHideFlags: 0
@@ -25491,6 +25481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1362997314
 Renderer:
   m_ObjectHideFlags: 0
@@ -27371,7 +27362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a765d72f65c4ffa9bdeabcc7cb3d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 10
 --- !u!114 &1421364830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27381,10 +27371,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1421364825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a765d72f65c4ffa9bdeabcc7cb3d30, type: 3}
+  m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 11
+  TimerEnd: 10
 --- !u!65 &1421364831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27804,6 +27794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1465981981
 Renderer:
   m_ObjectHideFlags: 0
@@ -28887,6 +28878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1535850029
 Renderer:
   m_ObjectHideFlags: 0
@@ -29121,6 +29113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1539676455
 Renderer:
   m_ObjectHideFlags: 0
@@ -29554,6 +29547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1562515629
 Renderer:
   m_ObjectHideFlags: 0
@@ -29727,6 +29721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1568531249
 Renderer:
   m_ObjectHideFlags: 0
@@ -29875,6 +29870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1579594967
 Renderer:
   m_ObjectHideFlags: 0
@@ -30069,6 +30065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1590298655
 Renderer:
   m_ObjectHideFlags: 0
@@ -30591,6 +30588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1612526780
 Renderer:
   m_ObjectHideFlags: 0
@@ -30736,6 +30734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1619478314
 Renderer:
   m_ObjectHideFlags: 0
@@ -31346,6 +31345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1641861765
 Renderer:
   m_ObjectHideFlags: 0
@@ -31543,10 +31543,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650707103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a765d72f65c4ffa9bdeabcc7cb3d30, type: 3}
+  m_Script: {fileID: 11500000, guid: 96af58bec4eb6764bb43adca6e8d8294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerEnd: 11
+  TimerEnd: 10
 --- !u!65 &1650707106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32670,6 +32670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1716020171
 Renderer:
   m_ObjectHideFlags: 0
@@ -33418,6 +33419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1792258648
 Renderer:
   m_ObjectHideFlags: 0
@@ -33609,6 +33611,50 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db7d3b9afeb854ea2b58908fee99d17f, type: 2}
   m_RootGameObject: {fileID: 435952204}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &1804137792
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 378671485}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9eb7b33693faf4496a9d61fda2044cd8, type: 2}
+  m_RootGameObject: {fileID: 1236671510}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &1805331645
@@ -34834,6 +34880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1864090020
 Renderer:
   m_ObjectHideFlags: 0
@@ -35107,6 +35154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1876501570
 Renderer:
   m_ObjectHideFlags: 0
@@ -35556,6 +35604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1908968816
 Renderer:
   m_ObjectHideFlags: 0
@@ -35790,6 +35839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1926439853
 Renderer:
   m_ObjectHideFlags: 0
@@ -36383,6 +36433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &1973587182
 Renderer:
   m_ObjectHideFlags: 0
@@ -36860,6 +36911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2003350567
 Renderer:
   m_ObjectHideFlags: 0
@@ -37546,6 +37598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2022174661
 Renderer:
   m_ObjectHideFlags: 0
@@ -38492,6 +38545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2080064628
 Renderer:
   m_ObjectHideFlags: 0
@@ -38565,6 +38619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2080701503
 Renderer:
   m_ObjectHideFlags: 0
@@ -38638,6 +38693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2081308857
 Renderer:
   m_ObjectHideFlags: 0
@@ -38711,6 +38767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2082042633
 Renderer:
   m_ObjectHideFlags: 0
@@ -38842,6 +38899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 0
   DeltaPerSecond: .5
+  CountdownDirectionReversed: 1
 --- !u!23 &2086885705
 Renderer:
   m_ObjectHideFlags: 0
