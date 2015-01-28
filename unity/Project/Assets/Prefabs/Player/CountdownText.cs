@@ -8,7 +8,6 @@ public class CountdownText : MonoBehaviour {
     public int CountDownTime = 10;
     private Text textComp;
 	
-	// Use this for initialization
 	void Awake () 
 	{
 		textComp = GetComponent<Text>();
@@ -17,7 +16,7 @@ public class CountdownText : MonoBehaviour {
 
     public void StartCountdown() {
         textComp.enabled = true;
-        StartCoroutine (CountdownCoroutine ());
+        StartCoroutine ("CountdownCoroutine");
         Music.PlayRamp ();
     }
 
@@ -29,6 +28,12 @@ public class CountdownText : MonoBehaviour {
 
         textComp.text = "NOW!";
         yield return new WaitForSeconds (1f);
+        textComp.enabled = false;
+    }
+
+    public void StopCountdown ()
+    {
+        StopCoroutine ("CountdownCoroutine");
         textComp.enabled = false;
     }
 

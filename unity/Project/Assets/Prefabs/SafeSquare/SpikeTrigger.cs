@@ -16,7 +16,7 @@ namespace Ggj.Prefabs {
 		private bool TimerRunning = false;
 
         private PieChartCountdownMesh countdown;
-        private Animator anim;
+        protected Animator animator;
 		
         public static class AnimParams {
             public const string ShouldAttack = "ShouldAttack";
@@ -36,25 +36,24 @@ namespace Ggj.Prefabs {
         }
 
 		void Start () {
-			anim = GetComponentInChildren<Animator>();
+			animator = GetComponentInChildren<Animator>();
             countdown = GetComponentInChildren<PieChartCountdownMesh> ();
             countdown.DeltaPerSecond = 1 / AttackDelaySeconds;
             countdown.enabled = false;
 		}
 		
-		void OnTriggerEnter(Collider c) {
-			var playerBehaviour = c.GetComponent<PlayerMove> ();
+		public void OnTriggerEnter(Collider other) {
+			var playerBehaviour = other.GetComponent<PlayerMove> ();
 			
 			if (playerBehaviour == null) {
-				// Only interested in colliding with player.
 				return;
 			}
-            if (!TimerRunning && anim.GetCurrentAnimatorStateInfo(0).IsTag("Idle")) {
+            if (!TimerRunning && animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle")) {
                 StartAttackTimer (playerBehaviour);
             }
 		}
 
-        void StartAttackTimer(PlayerMove playerBehaviour) {
+        public void StartAttackTimer(PlayerMove playerBehaviour) {
             countdown.enabled = true;
             countdown.renderer.enabled = true;
             countdown.Value = 0;
@@ -63,14 +62,11 @@ namespace Ggj.Prefabs {
             OnStartAttackTimer.Invoke (playerBehaviour);
 		}
 
-        void AttackTimerDone() {
-            anim.SetTrigger(
+        public void AttackTimerDone() {
+            CancelInvoke ("AttackTimerDone");
+            animator.SetTrigger(
                 this.HoldAttack ? AnimParams.ShouldAttackAndHold
                                 : AnimParams.ShouldAttack);
-            StopAttackTimer ();
-        }
-
-        void StopAttackTimer() {
             OnEndAttackTimer.Invoke ();
             TimerRunning = false;
             countdown.enabled = false;
