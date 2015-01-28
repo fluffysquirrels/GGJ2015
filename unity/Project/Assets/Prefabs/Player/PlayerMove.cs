@@ -123,7 +123,9 @@ namespace Ggj.Prefabs {
             UpdatePlayerMaterial ();
             Music.StopMusic ();
             Music.EffectsSource.PlayOneShot (PlayerDies);
-            CountdownText.PlayerDead ();
+            if (CountdownText != null) {
+                CountdownText.PlayerDead ();
+            }
         }
 
         private void UpdatePlayerMaterial() {
