@@ -7,6 +7,7 @@ public class PieChartCountdownMesh : MonoBehaviour {
 
     public float Value;
     public float DeltaPerSecond;
+    public bool CountdownDirectionReversed;
     private MeshFilter meshFilter;
     private Mesh mesh;
 
@@ -26,7 +27,10 @@ public class PieChartCountdownMesh : MonoBehaviour {
 	}
 
     private void SetCountdownMesh(Mesh mesh) {
-        float normalisedValue = Value - Mathf.Floor(Value); // Between 0 and 1.
+        float clampedValue = Mathf.Min (Mathf.Max (Value, 0.01f), 0.99f);
+        float signedValue = CountdownDirectionReversed ? 1 - clampedValue : clampedValue;
+        float valueInPeriod = signedValue - Mathf.Floor(signedValue); // Between 0 and 1.
+        float normalisedValue = valueInPeriod;
         float circleAngle = 2 * Mathf.PI * normalisedValue;
 
         // Point on the unit circle where the angle intersects.
@@ -75,6 +79,9 @@ public class PieChartCountdownMesh : MonoBehaviour {
         mesh.triangles = MirrorIndices (triangles.ToArray ());
     }
 
+    /// <summary>
+    /// Return indices for the existing triangles as well as a copy with mirrored normals.
+    /// </summary>
     private static int[] MirrorIndices(int[] indices) {
         var withMirrored = new int[indices.Length * 2];
 
@@ -87,21 +94,5 @@ public class PieChartCountdownMesh : MonoBehaviour {
         }
 
         return withMirrored;
-    }
-
-    private static void SetSillyTetrahedronMesh(Mesh mesh) {
-        mesh.vertices = new Vector3[] {
-            new Vector3( 1, 1, 1),
-            new Vector3( 1, 1,-1),
-            new Vector3(-1, 1, 1),
-            new Vector3( 1,-1, 1),
-        };
-
-        mesh.triangles = new int[] {
-            0, 1, 2,
-            1, 3, 2,
-            2, 3, 0,
-            0, 3, 1,
-        };
     }
 }
