@@ -3,7 +3,7 @@ using System.Collections;
 using Ggj.Player;
 
 namespace Ggj.Prefabs {
-	public class MainTrigger : MonoBehaviour {
+	public class SafeSquareTrigger : MonoBehaviour {
 	
 		private Animator anim;
 		public float TimerEnd = 10f;
@@ -41,7 +41,9 @@ namespace Ggj.Prefabs {
 			}
 			LetsStartTimer();
 			playerBehaviour.EnterIdlePant();
-            playerBehaviour.CountdownText.StartCountdown ();
+            if (playerBehaviour.CountdownText != null) {
+                playerBehaviour.CountdownText.StartCountdown ();
+            }
 		}
 		
 		void LetsStartTimer()
