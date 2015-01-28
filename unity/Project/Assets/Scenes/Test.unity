@@ -883,6 +883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDelaySeconds: 1
+  HoldAttack: 0
 --- !u!65 &443386364
 BoxCollider:
   m_ObjectHideFlags: 0

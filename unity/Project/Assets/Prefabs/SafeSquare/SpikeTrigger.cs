@@ -6,6 +6,7 @@ namespace Ggj.Prefabs {
 	public class SpikeTrigger : MonoBehaviour {
 	
 		public float AttackDelaySeconds;
+        public bool HoldAttack;
 
 		private bool TimerRunning = false;
 
@@ -14,6 +15,7 @@ namespace Ggj.Prefabs {
 		
         private static class AnimParams {
             public const string ShouldAttack = "ShouldAttack";
+            public const string ShouldAttackAndHold = "ShouldAttackAndHold";
         }
 
         private static class StateTags {
@@ -49,7 +51,9 @@ namespace Ggj.Prefabs {
 		}
 
         void AttackTimerDone() {
-            anim.SetTrigger(AnimParams.ShouldAttack);
+            anim.SetTrigger(
+                this.HoldAttack ? AnimParams.ShouldAttackAndHold
+                                : AnimParams.ShouldAttack);
             StopAttackTimer ();
         }
 
