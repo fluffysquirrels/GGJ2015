@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Player death_data" version="1.3.0" audacityversion="2.0.5" sel0="0.0000000000" sel1="0.0000000000" vpos="16" h="0.0000000000" zoom="111.6591430474" rate="44100.0">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Player death_data" version="1.3.0" audacityversion="2.0.5" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="111.6591430474" rate="44100.0">
 	<tags/>
 	<wavetrack name="squishy body 2" channel="0" linked="1" mute="0" solo="0" height="150" minimized="1" isSelected="1" rate="44100" gain="10.0" pan="0.0">
 		<waveclip offset="0.00000000">
@@ -57,26 +57,6 @@
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="49612">
 				<waveblock start="0">
 					<simpleblockfile filename="e00000e4.au" len="49612" min="-0.989471" max="0.96347" rms="0.076546"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="Low don&apos;t go that way" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="3.10317460">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="66150">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000188.au" len="66150" min="-0.152313" max="0.271149" rms="0.021899"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="Low don&apos;t go that way" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="3.10317460">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="66150">
-				<waveblock start="0">
-					<simpleblockfile filename="e00004a4.au" len="66150" min="-0.152313" max="0.271149" rms="0.021899"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
