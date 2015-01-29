@@ -3203,7 +3203,7 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Mat: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -14110,6 +14110,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 138
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: c33232ca7d8a8dc4c9c5ed0522deb7eb, type: 2}
+      propertyPath: level
+      value: Level2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c33232ca7d8a8dc4c9c5ed0522deb7eb, type: 2}
   m_RootGameObject: {fileID: 1677708158}
@@ -19709,6 +19713,7 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:
@@ -19727,8 +19732,6 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!1 &1071011592
@@ -30806,6 +30809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: decea43d3265e3d489902b5c3e82c6f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: Level2
 --- !u!65 &1677708161
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -4,6 +4,8 @@ using Ggj.Player;
 
 namespace Ggj.Prefabs {
     public class EndSquareTrigger : MonoBehaviour {
+    
+    public string level = "MainMenu";
         void OnTriggerEnter(Collider c) {
             var playerBehaviour = c.GetComponent<PlayerMove> ();
 
@@ -12,7 +14,7 @@ namespace Ggj.Prefabs {
                 return;
             }
 
-            Application.LoadLevel ("MainMenu");
+            Application.LoadLevel (level);
         }
 	}
 }
