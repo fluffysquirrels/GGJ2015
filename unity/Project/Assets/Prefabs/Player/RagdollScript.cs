@@ -17,13 +17,17 @@ namespace Ggj.Player {
 		void SetKinematic(bool newValue)
 		{
 			//Get an array of components that are of type Rigidbody
-			Rigidbody[] bodies=GetComponentsInChildren<Rigidbody>();
+			Rigidbody[] bodies = GetComponentsInChildren<Rigidbody>();
 			
 			//For each of the components in the array, treat the component as a Rigidbody and set its isKinematic property
 			foreach (Rigidbody rb in bodies)
 			{
 				rb.isKinematic=newValue;
 			}
+			
+			//Don't want to do this on root game object
+			Rigidbody self = GetComponent<Rigidbody>();
+			self.isKinematic = true;
 		}
 
 		void Start () {
@@ -34,16 +38,8 @@ namespace Ggj.Player {
 		
 		void Update () 
 		{
-			timer += Time.deltaTime;
-			if( timer > timerEnd)
-			{
-				ragdoll = true;
-			}
-			if ( ragdoll )
-			{
-				SetKinematic(false);
-				GetComponent<Animator>().enabled=false;
-			}
+			SetKinematic( !ragdoll );
+			GetComponent<Animator>().enabled = !ragdoll;
 		}
 	}
 }
