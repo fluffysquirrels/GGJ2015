@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: 95c7bf3a39e61470689942f98bf70346
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Player_Head
+    100002: Player_Hips
+    100004: Player_LeftArm
+    100006: Player_LeftFoot
+    100008: Player_LeftForeArm
+    100010: Player_LeftHand
+    100012: Player_LeftHandRing1
+    100014: Player_LeftHandRing2
+    100016: Player_LeftHandRing3
+    100018: Player_LeftHandRing4
+    100020: Player_LeftHandThumb1
+    100022: Player_LeftHandThumb2
+    100024: Player_LeftHandThumb3
+    100026: Player_LeftHandThumb4
+    100028: Player_LeftLeg
+    100030: Player_LeftShoulder
+    100032: Player_LeftToeBase
+    100034: Player_LeftUpLeg
+    100036: Player_MSH
+    100038: Player_Neck
+    100040: //RootNode
+    100042: Player_Reference
+    100044: Player_RightArm
+    100046: Player_RightFoot
+    100048: Player_RightForeArm
+    100050: Player_RightHand
+    100052: Player_RightHandRing1
+    100054: Player_RightHandRing2
+    100056: Player_RightHandRing3
+    100058: Player_RightHandRing4
+    100060: Player_RightHandThumb1
+    100062: Player_RightHandThumb2
+    100064: Player_RightHandThumb3
+    100066: Player_RightHandThumb4
+    100068: Player_RightLeg
+    100070: Player_RightShoulder
+    100072: Player_RightToeBase
+    100074: Player_RightUpLeg
+    100076: Player_Spine
+    100078: Player_Spine1
+    100080: Player_Spine2
+    400000: Player_Head
+    400002: Player_Hips
+    400004: Player_LeftArm
+    400006: Player_LeftFoot
+    400008: Player_LeftForeArm
+    400010: Player_LeftHand
+    400012: Player_LeftHandRing1
+    400014: Player_LeftHandRing2
+    400016: Player_LeftHandRing3
+    400018: Player_LeftHandRing4
+    400020: Player_LeftHandThumb1
+    400022: Player_LeftHandThumb2
+    400024: Player_LeftHandThumb3
+    400026: Player_LeftHandThumb4
+    400028: Player_LeftLeg
+    400030: Player_LeftShoulder
+    400032: Player_LeftToeBase
+    400034: Player_LeftUpLeg
+    400036: Player_MSH
+    400038: Player_Neck
+    400040: //RootNode
+    400042: Player_Reference
+    400044: Player_RightArm
+    400046: Player_RightFoot
+    400048: Player_RightForeArm
+    400050: Player_RightHand
+    400052: Player_RightHandRing1
+    400054: Player_RightHandRing2
+    400056: Player_RightHandRing3
+    400058: Player_RightHandRing4
+    400060: Player_RightHandThumb1
+    400062: Player_RightHandThumb2
+    400064: Player_RightHandThumb3
+    400066: Player_RightHandThumb4
+    400068: Player_RightLeg
+    400070: Player_RightShoulder
+    400072: Player_RightToeBase
+    400074: Player_RightUpLeg
+    400076: Player_Spine
+    400078: Player_Spine1
+    400080: Player_Spine2
+    4300000: Player_MSH
+    7400000: IdlePantHeadShake_OutOf
+    9500000: //RootNode
+    13700000: Player_MSH
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdlePantHeadShake_OutOf
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Player_MSH
+        weight: 0
+      - path: Player_Reference
+        weight: 1
+      - path: Player_Reference/Player_Hips
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_LeftUpLeg/Player_LeftLeg/Player_LeftFoot/Player_LeftToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_RightUpLeg/Player_RightLeg/Player_RightFoot/Player_RightToeBase
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandRing1/Player_LeftHandRing2/Player_LeftHandRing3/Player_LeftHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_LeftShoulder/Player_LeftArm/Player_LeftForeArm/Player_LeftHand/Player_LeftHandThumb1/Player_LeftHandThumb2/Player_LeftHandThumb3/Player_LeftHandThumb4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_Neck/Player_Head
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandRing1/Player_RightHandRing2/Player_RightHandRing3/Player_RightHandRing4
+        weight: 0
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3
+        weight: 1
+      - path: Player_Reference/Player_Hips/Player_Spine/Player_Spine1/Player_Spine2/Player_RightShoulder/Player_RightArm/Player_RightForeArm/Player_RightHand/Player_RightHandThumb1/Player_RightHandThumb2/Player_RightHandThumb3/Player_RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Player_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Player_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Player_PantToIdle(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Player_MSH
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Player_Reference
+      position: {x: 1.08998381e-06, y: .564129949, z: .0426182114}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Player_Hips
+      position: {x: -1.06309517e-06, y: .0650030971, z: -.047832936}
+      rotation: {x: .680184484, y: .193259075, z: .193259075, w: .680184484}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Player_LeftUpLeg
+      position: {x: -.136600181, y: -7.81442289e-09, z: -4.49176305e-08}
+      rotation: {x: -.010423556, y: .486813843, z: -.0186977237, w: .873243392}
+      scale: {x: 1.00000012, y: 1, z: .999999762}
+      transformModified: 1
+    - name: Player_LeftLeg
+      position: {x: -.217684925, y: 2.39116513e-08, z: -6.76453595e-08}
+      rotation: {x: -1.4901163e-08, y: -5.96046519e-08, z: .0541515276, w: .998532772}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Player_LeftFoot
+      position: {x: -.182923138, y: -2.22562218e-08, z: -5.76466519e-08}
+      rotation: {x: -2.98023224e-08, y: -1.34110451e-07, z: -.376808524, w: .926291227}
+      scale: {x: .99999994, y: .999999762, z: 1}
+      transformModified: 1
+    - name: Player_LeftToeBase
+      position: {x: -.185553029, y: 8.34393798e-09, z: -6.81050025e-08}
+      rotation: {x: -.295941025, y: -.642198384, z: -.295940965, w: .642198682}
+      scale: {x: .999999881, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Player_RightUpLeg
+      position: {x: .0610674955, y: -9.00676156e-09, z: .122189909}
+      rotation: {x: -.010423556, y: .486813843, z: -.0186977237, w: .873243392}
+      scale: {x: .999999821, y: .999999821, z: .999999642}
+      transformModified: 1
+    - name: Player_RightLeg
+      position: {x: -.217684984, y: -1.6567359e-08, z: -6.76453737e-08}
+      rotation: {x: -1.4901163e-08, y: -5.96046519e-08, z: .0541515276, w: .998532772}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: Player_RightFoot
+      position: {x: -.182923138, y: -2.225622e-08, z: -5.76466519e-08}
+      rotation: {x: -2.98023259e-08, y: 2.23517432e-07, z: -.376808524, w: .926291227}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Player_RightToeBase
+      position: {x: -.185553014, y: 2.83998847e-09, z: 6.59606485e-08}
+      rotation: {x: -.295941025, y: -.642198443, z: -.295940965, w: .642198622}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Player_Spine
+      position: {x: .0445419289, y: 3.74908637e-08, z: -.0720558465}
+      rotation: {x: 0, y: .873443544, z: -7.4505806e-09, w: -.486925393}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Player_Spine1
+      position: {x: -.103495814, y: 6.78234429e-08, z: -9.10325504e-09}
+      rotation: {x: 0, y: 0, z: 0, w: -1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Player_Spine2
+      position: {x: -.103495784, y: -1.9395376e-08, z: -2.35078144e-08}
+      rotation: {x: 2.98023224e-08, y: .376735121, z: -2.98023224e-08, w: .92632103}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Player_LeftShoulder
+      position: {x: -.106584907, y: 3.65926156e-09, z: -3.57770027e-08}
+      rotation: {x: .0163058601, y: .269628704, z: .0581209213, w: .961070478}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Player_LeftArm
+      position: {x: -.0932973847, y: -3.07096504e-09, z: 3.22292681e-09}
+      rotation: {x: .0102218539, y: .124862172, z: -.0388017036, w: .991362393}
+      scale: {x: .999999702, y: 1, z: .999999642}
+      transformModified: 1
+    - name: Player_LeftForeArm
+      position: {x: -.17113103, y: -7.56449214e-09, z: 4.5700034e-08}
+      rotation: {x: 5.67233656e-08, y: 4.47034836e-08, z: -.0569434762, w: .998377442}
+      scale: {x: 1.00000012, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: Player_LeftHand
+      position: {x: -.141924962, y: -9.21994214e-09, z: -1.65417688e-08}
+      rotation: {x: -.0178981852, y: .0403917432, z: -.338550001, w: .93991071}
+      scale: {x: .999999881, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: Player_LeftHandThumb1
+      position: {x: -.0855861157, y: 1.69483894e-08, z: -1.56697784e-08}
+      rotation: {x: -.0267108306, y: .0198531505, z: .0515280589, w: .99811691}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Player_LeftHandThumb2
+      position: {x: -.0556479879, y: -5.10920506e-09, z: -9.90289983e-09}
+      rotation: {x: .0198341683, y: -.0229295343, z: .0339191444, w: .998964608}
+      scale: {x: 1.00000024, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: Player_LeftHandThumb3
+      position: {x: -.0529759973, y: 2.84827593e-08, z: -2.10403628e-09}
+      rotation: {x: -.0231334884, y: .0139100831, z: .0338679887, w: .999061763}
+      scale: {x: .99999994, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Player_LeftHandThumb4
+      position: {x: -.0646411404, y: -2.74747229e-08, z: -3.8194381e-09}
+      rotation: {x: -.685430408, y: -.173738897, z: .0228716098, w: .706736803}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Player_LeftHandRing1
+      position: {x: -.0607528538, y: -.0617849678, z: -.0102837915}
+      rotation: {x: .0175942853, y: -.0405249633, z: .345596552, w: .937342703}
+      scale: {x: 1.00000012, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: Player_LeftHandRing2
+      position: {x: -.0610070899, y: -1.89768148e-08, z: 6.61189237e-09}
+      rotation: {x: 9.0745722e-08, y: -3.53902507e-08, z: -.00631249929, w: .999980092}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Player_LeftHandRing3
+      position: {x: -.064039059, y: 4.56875924e-08, z: 3.50393741e-08}
+      rotation: {x: 1.23574864e-07, y: -8.19563866e-08, z: -.0153492261, w: .999882221}
+      scale: {x: .99999994, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: Player_LeftHandRing4
+      position: {x: -.079660058, y: -5.2218855e-08, z: 1.16299157e-08}
+      rotation: {x: -.706228495, y: -.0352329873, z: .0352329873, w: .706228495}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Player_RightShoulder
+      position: {x: -.0027410388, y: -1.48253143e-09, z: -.106549703}
+      rotation: {x: .0522431284, y: .863876462, z: -.0302420519, w: -.500073552}
+      scale: {x: 1, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: Player_RightArm
+      position: {x: -.0932975113, y: 5.31526467e-08, z: -4.81619118e-08}
+      rotation: {x: -.010221838, y: -.124862328, z: -.0388016552, w: .991362333}
+      scale: {x: 1.0000006, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: Player_RightForeArm
+      position: {x: -.171131089, y: -5.93349228e-08, z: -3.11608481e-08}
+      rotation: {x: 0, y: -1.86264537e-09, z: -.0569435209, w: .998377442}
+      scale: {x: .999999464, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: Player_RightHand
+      position: {x: -.141925007, y: 2.54444188e-10, z: 2.85674986e-08}
+      rotation: {x: .0178980827, y: -.040391732, z: -.338549912, w: .939910769}
+      scale: {x: 1.00000024, y: .999999762, z: 1.00000036}
+      transformModified: 1
+    - name: Player_RightHandThumb1
+      position: {x: -.0855861455, y: -4.3446588e-10, z: 4.50291004e-09}
+      rotation: {x: .0267105903, y: -.0198534802, z: .0515278541, w: .99811691}
+      scale: {x: .999999762, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: Player_RightHandThumb2
+      position: {x: -.0556480289, y: -1.37928904e-08, z: -1.8034326e-08}
+      rotation: {x: -.0198340397, y: .022928169, z: .0339179598, w: .998964787}
+      scale: {x: .99999994, y: 1, z: .999999762}
+      transformModified: 1
+    - name: Player_RightHandThumb3
+      position: {x: -.0529759713, y: 8.36176614e-11, z: 5.69754199e-08}
+      rotation: {x: .0231332071, y: -.0139080891, z: .0338697061, w: .999061704}
+      scale: {x: 1, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: Player_RightHandThumb4
+      position: {x: -.0646411255, y: -3.88427734e-09, z: -1.79207191e-08}
+      rotation: {x: .0228715912, y: -.706736684, z: -.685430467, w: .173738837}
+      scale: {x: 1, y: .999999642, z: .999999762}
+      transformModified: 1
+    - name: Player_RightHandRing1
+      position: {x: -.0607529096, y: -.0617849939, z: .0102837747}
+      rotation: {x: -.0175944548, y: .0405250452, z: .345596343, w: .937342703}
+      scale: {x: 1, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: Player_RightHandRing2
+      position: {x: -.0610070899, y: 3.41796347e-09, z: -6.06503514e-09}
+      rotation: {x: 0, y: -1.44354985e-07, z: -.00631235726, w: .999980092}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Player_RightHandRing3
+      position: {x: -.064039059, y: 4.55726151e-10, z: 9.24846244e-09}
+      rotation: {x: -2.98023259e-08, y: 5.02914261e-08, z: -.0153493006, w: .999882221}
+      scale: {x: 1.00000036, y: 1, z: .999999642}
+      transformModified: 1
+    - name: Player_RightHandRing4
+      position: {x: -.0796600953, y: 4.09820222e-09, z: -6.43029585e-09}
+      rotation: {x: -.0347485617, y: .706252456, z: .706252456, w: -.0347485617}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Player_Neck
+      position: {x: -.0741176531, y: 8.65161986e-09, z: -.0722355023}
+      rotation: {x: 0, y: -.376735091, z: 0, w: .92632103}
+      scale: {x: 1, y: 1, z: .999999762}
+      transformModified: 1
+    - name: Player_Head
+      position: {x: -.101218596, y: 3.99391489e-08, z: -4.49302329e-09}
+      rotation: {x: -.5, y: .5, z: .5, w: .49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
