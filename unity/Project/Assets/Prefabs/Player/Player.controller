@@ -53,13 +53,13 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110205666}
   m_DstState: {fileID: 110252113}
-  m_TransitionDuration: .25862056
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
     m_ConditionEvent: ShouldIdlePant
     m_EventTreshold: 0
-    m_ExitTime: 1
+    m_ExitTime: 4
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0

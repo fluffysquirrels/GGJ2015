@@ -33101,6 +33101,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1852453070}
+  - 114: {fileID: 1852453071}
   m_Layer: 0
   m_Name: BreathEmitter
   m_TagString: Untagged
@@ -33120,6 +33121,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 604297832}
   m_RootOrder: 0
+--- !u!114 &1852453071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: d78e4ffaee94c4412852e849ac80a29c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1364456899}
+  m_GameObject: {fileID: 1852453069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c494ace757a0a4c918eefc6818b83baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breathEmitter: {fileID: 100000, guid: 7d8273aa95a274a0fb6cf0c058378f71, type: 2}
 --- !u!1 &1853251384
 GameObject:
   m_ObjectHideFlags: 0
