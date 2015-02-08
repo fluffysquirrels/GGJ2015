@@ -459,7 +459,28 @@ ModelImporter:
       heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: ColliderCenterY
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .800000012
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .599934995
+            value: .401450843
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: .401068956
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       events: []
       transformMask:
       - path: 
@@ -567,7 +588,23 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: ColliderCenterY
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .400000006
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: .400000006
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       events: []
       transformMask:
       - path: 
@@ -675,7 +712,33 @@ ModelImporter:
       heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: ColliderCenterY
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .400000006
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .291828692
+            value: .400000006
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .731517255
+            value: .800000012
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: .800000012
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       events: []
       transformMask:
       - path: 

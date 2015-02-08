@@ -23,14 +23,12 @@ public class BreathSpawner : MonoBehaviour
 		{	
 			if ( !_emitter )
 			{
-				Debug.Log ("Spawn");
 				// spawn emitter
 				_emitter = (GameObject)Instantiate( breathEmitter, transform.position, transform.rotation );
 				_emitter.transform.parent = transform;
 			}
 		} else
 		{
-			Debug.Log ("Destroy");
 			// destroy emitter
 			Destroy( _emitter );
 			_emitter = null;
