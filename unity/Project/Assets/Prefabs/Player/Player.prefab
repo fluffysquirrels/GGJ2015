@@ -145,6 +145,7 @@ GameObject:
   - 4: {fileID: 400020}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11452728}
+  - 114: {fileID: 11419554}
   - 136: {fileID: 13697196}
   - 143: {fileID: 14358956}
   - 95: {fileID: 9523142}
@@ -779,7 +780,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 429058}
@@ -1308,6 +1309,19 @@ MonoBehaviour:
   PlayerDies: {fileID: 8300000, guid: 2f660a8e1584cb947a2b894f1eb9c754, type: 3}
   CountdownText: {fileID: 0}
   Music: {fileID: 0}
+--- !u!114 &11419554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e696faed514c74b328f697d7e1b0c895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdoll: {fileID: 478868, guid: 7e2d2b10e551f4bf69ed346651c9ca6d, type: 2}
+  shouldRagdoll: 0
 --- !u!114 &11452728
 MonoBehaviour:
   m_ObjectHideFlags: 1

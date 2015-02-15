@@ -15,6 +15,8 @@ namespace Ggj.Prefabs {
 
         private Vector3? initialPosition;
 
+		private Ragdollify ragdoll;
+
 		static class StateTags {
 			public const string Idle = "Idle";
             public const string IdlePant = "IdlePant";
@@ -32,6 +34,7 @@ namespace Ggj.Prefabs {
 
 		void Start () {
 			animator = GetComponent<Animator> ();
+			ragdoll = GetComponent<Ragdollify>();
 		}
 
         bool IsIdle {
@@ -126,6 +129,7 @@ namespace Ggj.Prefabs {
             if (CountdownText != null) {
                 CountdownText.PlayerDead ();
             }
+			ragdoll.GotoRagdoll();
         }
 
         private void UpdatePlayerMaterial() {
