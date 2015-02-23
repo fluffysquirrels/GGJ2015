@@ -310,6 +310,7 @@ GameObject:
   - 4: {fileID: 92951813}
   - 114: {fileID: 92951816}
   - 114: {fileID: 92951819}
+  - 114: {fileID: 92951821}
   - 136: {fileID: 92951814}
   - 143: {fileID: 92951818}
   - 95: {fileID: 92951817}
@@ -476,6 +477,20 @@ AudioListener:
   m_PrefabInternal: {fileID: 90037179}
   m_GameObject: {fileID: 92951812}
   m_Enabled: 1
+--- !u!114 &92951821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11419554, guid: d78e4ffaee94c4412852e849ac80a29c,
+    type: 2}
+  m_PrefabInternal: {fileID: 90037179}
+  m_GameObject: {fileID: 92951812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e696faed514c74b328f697d7e1b0c895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdoll: {fileID: 478868, guid: 7e2d2b10e551f4bf69ed346651c9ca6d, type: 2}
+  shouldRagdoll: 0
 --- !u!1 &98189785
 GameObject:
   m_ObjectHideFlags: 0

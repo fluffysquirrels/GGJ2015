@@ -8,7 +8,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 478868}
-  - 95: {fileID: 9578948}
+  - 114: {fileID: 11415618}
+  - 81: {fileID: 8171248}
   m_Layer: 0
   m_Name: Player_Ragdoll
   m_TagString: Untagged
@@ -1370,21 +1371,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .202849075, y: .231440976, z: .328203499}
   m_Center: {x: -.101424612, y: -.00562161952, z: 2.98023224e-08}
---- !u!95 &9578948
-Animator:
-  serializedVersion: 3
+--- !u!81 &8171248
+AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 178868}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 0bc30cfbd09dd4bcea129ff6a7353c83, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11415618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f5d855c11e04b3c88146dcd69e65f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &13578948
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -1513,7 +1517,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 54e28968de22d014eac80e98d5af6aa7, type: 2}
+  - {fileID: 2100000, guid: 76bb712c01fde1744a207ddff48c6d5d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
