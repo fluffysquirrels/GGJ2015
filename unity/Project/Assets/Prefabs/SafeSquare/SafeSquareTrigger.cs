@@ -7,7 +7,18 @@ namespace Ggj.Prefabs {
 
         private PlayerMove currentPlayer;
 
-        public SafeSquareTrigger() {
+		public MusicController Music;
+
+		// this safe squares reference, must be unique and set in editor
+		public int SafeSquareReference = 0;
+
+        public void Awake()
+		{
+			GameObject _music = GameObject.FindGameObjectWithTag("MusicController");
+			Music = _music.GetComponent<MusicController>();
+		}
+
+		public SafeSquareTrigger() {
             this.OnStartAttackTimer += (player) => {
                 currentPlayer = player;
                 player.EnterIdlePant();
@@ -23,10 +34,10 @@ namespace Ggj.Prefabs {
             };
         }
 
-
-
-        public void OnTriggerExit(Collider other) {
+		public void OnTriggerExit(Collider other) {
             var playerBehaviour = other.GetComponent<PlayerMove> ();
+			Music.StopMusic();
+			Music.StartMusic();
 
             if (playerBehaviour == null) {
                 return;

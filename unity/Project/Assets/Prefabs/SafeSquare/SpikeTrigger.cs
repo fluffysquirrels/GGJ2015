@@ -55,7 +55,7 @@ namespace Ggj.Prefabs {
 
         public void StartAttackTimer(PlayerMove playerBehaviour) {
             countdown.enabled = true;
-            countdown.renderer.enabled = true;
+            countdown.GetComponent<Renderer>().enabled = true;
             countdown.Value = 0;
             TimerRunning = true;
             Invoke ("AttackTimerDone", AttackDelaySeconds);
@@ -70,7 +70,7 @@ namespace Ggj.Prefabs {
             OnEndAttackTimer.Invoke ();
             TimerRunning = false;
             countdown.enabled = false;
-            countdown.renderer.enabled = false;
+            countdown.GetComponent<Renderer>().enabled = false;
         }
 	}
 }
